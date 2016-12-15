@@ -1,8 +1,12 @@
-<div>
-	<h2>{{data.name}}</h2>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/rY0WxgSXdEE" frameborder="0" allowfullscreen></iframe>
-	<div class="bdescription">
-		<img src="{{data.img}}" alt="{{data.imgalt}}">
+<div class="row">
+	<div class="col-sm-12">
+		<h2>{{data.name}}</h2>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rY0WxgSXdEE" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<br/>
 		<p>{{data.description}}</p>
+		<br/>
+		<img class="img-responsive" src="{{data.img}}" alt="{{data.imgalt}}">
 	</div>
 </div>
